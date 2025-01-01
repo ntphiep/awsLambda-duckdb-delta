@@ -3,8 +3,8 @@ import os
 from deltalake import write_deltalake
 
 
-DELTA_TABLE_PATH = "s3://confessions-of-a-data-guy/ducklamb"
-DAILY_TABLE_PATH = "s3://confessions-of-a-data-guy/ducklambcummulative"
+DELTA_TABLE_PATH = "s3://hiep-delta-bk/ducklamb"
+DAILY_TABLE_PATH = "s3://hiep-delta-bk/ducklambcummulative"
 KEY_ID = os.environ["AWS_ACCESS_KEY_ID"]
 SECRET = os.environ["AWS_SECRET_ACCESS_KEY"]
 
