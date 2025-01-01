@@ -1,5 +1,6 @@
 duckdb
 deltalake
-getdaft[deltalake]
+# getdaft[deltalake]
 numpy
 pandas
+polars
